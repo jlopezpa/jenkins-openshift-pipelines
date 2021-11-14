@@ -1,17 +1,13 @@
 # Jenkisn-Openshift-Pipelines
 Esta es una repo para realizar la creaciÃ³n eliminaciÃ³n de recursos en Openshift utilizando Pipelines de Jenkins
-_AcÃ¡ va un pÃ¡rrafo que describa lo que es el proyecto_
 
-## Comenzando íº€
-
-_Estas instrucciones te permitirÃ¡n obtener el  proyecto en funcionamiento para realizar pruebas con  propÃ³sitos de desarrollo._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
+## Comenzando ï¿½ï¿½ï¿½
 
 
-### Pre-requisitos í³‹
+Mira **Resources** para conocer como desplegar el proyecto.
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+
+### Pre-requisitos ï¿½ï¿½ï¿½
 
 ```
 1.- Disponer de un OCP Cluster OpenShift v 3.11 + 4.x
@@ -22,11 +18,8 @@ _Que cosas necesitas para instalar el software y como instalarlas_
 
 ```
 
-### InstalaciÃ³n del Operador í´§
+### InstalaciÃ³n del Operador ï¿½ï¿½ï¿½
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_DÃ­ cÃ³mo serÃ¡ ese paso_
 Comandos oc para ejecutar la instalaciÃ³n del **Operador**
 ```
 ./oc.exe apply -f /operador/Red_Hat_OpenShift_Pipelines_Operator.yaml
@@ -60,7 +53,7 @@ Verifica que la url de Jenkins esta en funcionamiento **https://jenkins-{name-ac
 
 Desde la Web -> **https://jenkins-{name-account}-dev.apps.sandbox.x8i5.p1.openshiftapps.com/** -> Log in with OpenShift -> Nueva Tarea -> Pipeline -> Ingrese el Nombre -> Copy el contenido  /resource/*.json y luego Guardar
 
-### Analice las pruebas end-to-end í´©
+### Analice las pruebas end-to-end ï¿½ï¿½ï¿½
 Desde el Pipeline Advanced Project Option -> Pipelinescript ingrese:
 
 ```
